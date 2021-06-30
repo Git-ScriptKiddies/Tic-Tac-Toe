@@ -35,15 +35,14 @@ li{
     margin:2px;
     height:18vh;
     width: 18vh;
+    background-color: white;
 }
 .x{
-    background-color: grey;
-/*     background-image: url("/x.JPG"); */
+    background-image: url("/x.JPG");
     background-size: contain;
     background-repeat: no-repeat;
 }
 .o{
-    background-color: grey;
     background-image: url("/o.jpg");
     background-size: contain;
     background-repeat: no-repeat;
