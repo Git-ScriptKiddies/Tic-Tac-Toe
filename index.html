@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Game</title>
+</head>
+<body>
+    <div id="Winner" class="Winner">
+        <p id="p1">Winner is</p>
+    </div>
+    <div class="Over" id="Over">
+        <p id="p2">Game Over</p>
+    </div>
+    <div id="container">
+        <p>Multiplayer Tic Tac Toe</p>
+        <div id="board">
+            <ul>
+                <li class="box availBox" id="box1" onClick="reply_click(1,this.id)"></li>
+                <li class="box availBox" id="box2" onClick="reply_click(2,this.id)"></li>
+                <li class="box availBox" id="box3" onClick="reply_click(3,this.id)"></li>
+                <li class="box availBox" id="box4" onClick="reply_click(4,this.id)"></li>
+                <li class="box availBox" id="box5" onClick="reply_click(5,this.id)"></li>
+                <li class="box availBox" id="box6" onClick="reply_click(6,this.id)"></li>
+                <li class="box availBox" id="box7" onClick="reply_click(7,this.id)"></li>
+                <li class="box availBox" id="box8" onClick="reply_click(8,this.id)"></li>
+                <li class="box availBox" id="box9" onClick="reply_click(9,this.id)"></li>
+            </ul>
+        </div>
+    </div>
+    <button id="retry" onclick="retry()">Retry</button>
+</body>
+</html>
