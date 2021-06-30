@@ -37,13 +37,13 @@ li{
     width: 18vh;
 }
 .x{
-    background-color: white;
+    background-color: grey;
     background-image: url("/x.JPG");
     background-size: contain;
     background-repeat: no-repeat;
 }
 .o{
-    background-color: white;
+    background-color: grey;
     background-image: url("/o.jpg");
     background-size: contain;
     background-repeat: no-repeat;
