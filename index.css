@@ -40,12 +40,14 @@ li{
     background-color: white;
     background-image: url("x.JPG");
     background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .o{
     background-color: white;
     background-image: url("o.JPG");
     background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .availBox{
