@@ -38,13 +38,13 @@ li{
 }
 .x{
     background-color: white;
-    background-image: url("/x.JPG");
+    background-image: url("x.JPG");
     background-size: contain;
     background-repeat: no-repeat;
 }
 .o{
     background-color: white;
-    background-image: url("/o.jpg");
+    background-image: url("o.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
